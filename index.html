@@ -1,141 +1,145 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>joao schmitt</title>
+    <title>PetCare SC</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+
     <header>
-        <h1>joao</h1>
-        <nav> <!--seção de navegação do site.-->
-            <ul> <!--lista não ordenada para links do nosso menu. -->
-                <li><a href="#Sobre">Sobre mim</a></li>
-                <li><a href="#Projetos">Projetos</a></li>
-                <li><a href="#Contato">Contato</a></li>
-                <!-- <li>sobre mim</li> -->
-            </ul>
+        <h1>🐾 PetCare SC</h1>
+
+        <nav>
+            <a href="#">Início</a>
+            <a href="#">Sobre</a>
+            <a href="#">Serviços</a>
+            <a href="#">Contato</a>
         </nav>
-
-
     </header>
 
-    <section id="Sobre">
-        <h2>sobre mim</h2>
+    <section class="hero">
 
-        <img src=internet.png alt="imagem de foto de perfil" title="Imagem de perfil de João">
+        <div class="hero-texto">
 
-        <article>
-            <p>
-                Olá! Eu sou o João, sou um desenvolvedor web...
-            </p>
-        </article>
-
-        <aside>
-            <h3>Habilidade</h3>
-
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>JavaScript</li>
-            </ul>
-
-        </aside>
-
-    </section>
-
-    <section id="Projetos">
-
-        <h2>Projetos</h2>
-
-        <article>
-            <h3>Potifolio</h3>
+            <h2>Cuidando do seu melhor amigo</h2>
 
             <p>
-                Esse foi o primeiro site desenvolvido, estudando front-end.
+                Atendimento veterinário, banho, tosa, consultas e muito carinho para o seu pet.
             </p>
-        </article>
+
+            <button>Agendar Consulta</button>
+
+        </div>
+
+        <div class="hero-imagem">
+
+            <img src="https://placedog.net/500" alt="Cachorro">
+
+        </div>
 
     </section>
 
-    <section id="Habilidades">
+<section class="servicos">
 
-        <h2>Habilidades e Tecnologias</h2>
+    <h2>Nossos Serviços</h2>
 
-        <table>
+    <div class="cards">
 
-            <thead>
-                <tr>
-                    <th>Tecnologias</th>
-                    <th>Nivel</th>
-                    <th>Descrição</th>
-                </tr>
-            </thead>
+        <div class="card">
+            <h3>🐶 Banho e Tosa</h3>
+            <p>
+                Banho completo, tosa higiênica e cuidados especiais para o seu pet.
+            </p>
+        </div>
 
-            <tbody>
-                <tr>
-                    <td>HTML</td>
-                    <td>Iniciante</td>
-                    <td>Capaz de construir estruturas de paginas web semanticas e responsivas.</td>
-                </tr>
-            </tbody>
+        <div class="card">
+            <h3>🩺 Consultas</h3>
+            <p>
+                Atendimento veterinário com profissionais qualificados e muito carinho.
+            </p>
+        </div>
 
-        </table>
+        <div class="card">
+            <h3>💉 Vacinação</h3>
+            <p>
+                Vacinas em dia para garantir saúde e proteção ao seu melhor amigo.
+            </p>
+        </div>
 
+    </div>
 
-    </section>
+</section>
+<section class="sobre">
 
-    <footer>
-        <p>Direitos reservados a João</p>
+    <h2>Quem Somos</h2>
+<div class="indicadores">
 
-        <section id="Contato">
-            <h2>Contato</h2>
+    <div class="numero">
+        <h3>500+</h3>
+        <p>Pets Atendidos</p>
+    </div>
 
-            <p>Tem algum projeto em mente, entre em contato.</p>
+    <div class="numero">
+        <h3>10+</h3>
+        <p>Anos de Experiência</p>
+    </div>
 
-            <address>
-                <form action="">
+    <div class="numero">
+        <h3>24h</h3>
+        <p>Atendimento</p>
+    </div>
 
-                    <label for="nome">nome: </label>
-                    <input type="nome" id="nome" name="nome" required><br>
+</div>
+    <p>
+        A PetCare SC é uma clínica veterinária dedicada ao bem-estar dos animais.
+        Trabalhamos com atendimento de qualidade, profissionais capacitados e muito
+        carinho para cuidar do seu melhor amigo.
+    </p>
 
-                    <label for="email">E-mail: </label>
-                    <input type="email" id="email" name="email" required><br>
+</section>
 
-                    <label for="Telefone">Telefone: </label>
-                    <input type="tel" id="Telefone" name="Telefone"><br>
+<section class="contato">
 
-                    <label for="asssunto">Assunto: </label>
-                    <select name="assunto" id="assunto">
-                        <option value="Orcamento">Orcamento</option>
-                        <option value="Duvida">Duvida</option>
-                        <option value="Outro">Outro</option>
-                    </select>
+    <h2>Entre em Contato</h2>
 
-                    <br>
+    <form id="form-contato">
 
+    <input type="text" id="nome" placeholder="Seu nome">
 
+    <input type="email" id="email" placeholder="Seu e-mail">
 
-                    <label for="Mensagem">Mensagem: </label>
-                    <textarea name="Mensagem" id="Mensagem" cols="30 " rows="10" required></textarea>
+    <textarea id="mensagem" placeholder="Escreva sua mensagem"></textarea>
 
-                    <input type="checkbox" id="inscricao" name="inscricao">
-                    <label for="inscricao">Deseja receber minha newsletter?Fique por dentro.</label>
+    <button type="submit">Enviar</button>
 
-                    <br>
+</form>
 
-                    <input type="submit" value="Enviar Mensagem">
+</section>
 
+<footer>
 
+    <h3>PetCare SC</h3>
 
-                </form>
-            </address>
+    <p>📍 Barra Velha - SC</p>
 
-        </section>
+    <p>📞 (47) 99999-9999</p>
 
-    </footer>
+    <p>✉ contato@petcaresc.com</p>
+
+    <p>© 2026 - Todos os direitos reservados.</p>
+
+</footer>
+
+<script src="script.js"></script>
+
 </body>
 
 </html>

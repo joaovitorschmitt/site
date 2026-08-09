@@ -1,0 +1,216 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:'Poppins',sans-serif;
+}
+
+
+header{
+    background:#2f80ed;
+    color:white;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:20px 40px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    text-decoration:underline;
+}
+.hero {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 80px 10%;
+
+    background-color: #f5f5f5;
+}
+
+.hero-texto {
+    width: 50%;
+}
+
+.hero-texto h2 {
+    font-size: 42px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.hero-texto p {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.hero-texto button {
+    background: #3b82f6;
+    color: white;
+
+    border: none;
+
+    padding: 15px 30px;
+
+    border-radius: 8px;
+
+    cursor: pointer;
+
+    font-size: 18px;
+}
+
+.hero-texto button:hover {
+    background: #2563eb;
+}
+.servicos{
+    padding:80px 8%;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+.servicos h2{
+    font-size:40px;
+    color:#333;
+    margin-bottom:50px;
+}
+
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:320px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 10px 20px rgba(0,0,0,.1);
+    transition:.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h3{
+    color:#3b82f6;
+    margin-bottom:15px;
+    font-size:24px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.6;
+}
+.sobre{
+    padding:80px 10%;
+    text-align:center;
+    background:white;
+}
+
+.sobre h2{
+    font-size:40px;
+    margin-bottom:25px;
+    color:#333;
+}
+
+.sobre p{
+    max-width:800px;
+    margin:auto;
+    font-size:20px;
+    color:#666;
+    line-height:1.8;
+}
+
+.contato{
+    padding:80px 10%;
+    background:#f4f4f4;
+    text-align:center;
+}
+
+.contato h2{
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+form{
+    max-width:600px;
+    margin:auto;
+}
+
+input,
+textarea{
+    width:100%;
+    padding:15px;
+    margin-bottom:20px;
+    border:1px solid #ccc;
+    border-radius:8px;
+    font-size:16px;
+}
+
+textarea{
+    height:150px;
+    resize:none;
+}
+
+form button{
+    background:#3b82f6;
+    color:white;
+    border:none;
+    padding:15px 35px;
+    border-radius:8px;
+    cursor:pointer;
+    font-size:18px;
+}
+
+form button:hover{
+    background:#2563eb;
+}
+
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:35px;
+}
+
+footer p{
+    margin-top:10px;
+}
+.indicadores{
+    display:flex;
+    justify-content:center;
+    gap:50px;
+    margin-top:50px;
+}
+
+.numero{
+    text-align:center;
+}
+
+.numero h3{
+    font-size:42px;
+    color:#2f80ed;
+}
+
+.numero p{
+    color:#666;
+}
+.hero img{
+    width:500px;
+    aspect-ratio:1/1;
+    object-fit:cover;
+    border-radius:20px;
+}
