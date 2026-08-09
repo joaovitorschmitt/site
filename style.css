@@ -214,3 +214,77 @@ footer p{
     object-fit:cover;
     border-radius:20px;
 }
+/* ========================= */
+/* RESPONSIVIDADE CELULAR    */
+/* ========================= */
+
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    nav a {
+        margin: 0;
+    }
+
+    .hero {
+        flex-direction: column;
+        text-align: center;
+        padding: 50px 20px;
+    }
+
+    .hero-texto {
+        width: 100%;
+    }
+
+    .hero-texto h2 {
+        font-size: 36px;
+    }
+
+    .hero img {
+        width: 100%;
+        max-width: 350px;
+        margin-top: 30px;
+    }
+
+    .servicos-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card {
+        width: 90%;
+    }
+
+    .sobre {
+        padding: 50px 20px;
+    }
+
+    .sobre p {
+        width: 100%;
+    }
+
+    .numero {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .contato form {
+        width: 90%;
+    }
+
+    footer {
+        text-align: center;
+    }
+
+}
