@@ -220,70 +220,93 @@ footer p{
 
 @media (max-width: 768px) {
 
-    header {
+    header{
         flex-direction: column;
-        gap: 20px;
+        align-items: center;
         text-align: center;
+        padding: 20px;
+        gap: 20px;
     }
 
-    nav {
+    nav{
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         gap: 15px;
     }
 
-    nav a {
+    nav a{
         margin: 0;
     }
 
-    .hero {
+    .hero{
         flex-direction: column;
         text-align: center;
         padding: 50px 20px;
     }
 
-    .hero-texto {
+    .hero-texto{
         width: 100%;
     }
 
-    .hero-texto h2 {
-        font-size: 36px;
+    .hero-texto h2{
+        font-size: 34px;
     }
 
-    .hero img {
+    .hero-texto p{
+        font-size: 18px;
+    }
+
+    .hero img{
         width: 100%;
-        max-width: 350px;
+        max-width: 320px;
+        height: auto;
         margin-top: 30px;
+        border-radius: 20px;
     }
 
-    .servicos-cards {
+    .servicos{
+        padding: 50px 20px;
+    }
+
+    .cards{
         flex-direction: column;
         align-items: center;
     }
 
-    .card {
-        width: 90%;
+    .card{
+        width: 100%;
+        max-width: 350px;
     }
 
-    .sobre {
+    .sobre{
         padding: 50px 20px;
     }
 
-    .sobre p {
+    .sobre p{
+        font-size: 18px;
+    }
+
+    .indicadores{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .contato{
+        padding: 50px 20px;
+    }
+
+    form{
         width: 100%;
     }
 
-    .numero {
-        flex-direction: column;
-        gap: 20px;
+    input,
+    textarea{
+        width: 100%;
     }
 
-    .contato form {
-        width: 90%;
-    }
-
-    footer {
+    footer{
+        padding: 30px 20px;
         text-align: center;
     }
 
